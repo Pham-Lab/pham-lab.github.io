@@ -1,0 +1,286 @@
+@article{kamimura_pham,
+bibtex_show = {true},
+  selected={true},
+author="Kamimura, Ryo and Pham, Thong",
+title={Causal Discovery via Transformed Low-Rank Quantile Surfaces},
+journal="arXiv",
+year="2026",
+month = "9",
+abstract="We propose Low-Rank Quantile Surfaces (LRQS), a bivariate causal model in which, in the causal direction, an unknown monotone transformation of the conditional quantile surface admits a low-rank functional decomposition. LRQS subsumes location-scale noise models and post-nonlinear heteroscedastic noise models, while allowing multiple quantile bases to represent changes beyond location-scale effects. We prove generic identifiability of LRQS: the transformed quantile surface is low rank in the causal direction, whereas reverse representability under the corresponding constraints occurs only for exceptional, fine-tuned cause marginals. We provide a simple-yet-powerful causal score using a nonparametric fitting procedure that alternates between rank-constrained approximation of discretized quantile surfaces and isotonic estimation of the unknown monotone transformation. Experiments on synthetic mechanisms with higher-rank distributional shape variation and strong nonlinear distortions, together with standard bivariate benchmarks, show that LRQS is especially effective when conditional distributional shape or observation distortion goes beyond existing location-scale assumptions.
+",
+url="https://arxiv.org/abs/2609.16931",
+html="https://arxiv.org/abs/2609.16931"
+}
+
+@article{Mariyam_shimizu_pham,
+bibtex_show = {true},
+author="Khan, Mariyam and Shimizu, Shohei 
+and Pham, Thong",
+title={Beyond Additivity: Causal Discovery in Location-Scale Noise Models with Hidden Variables},
+journal="arXiv",
+year="2026",
+month = "6",
+abstract="We study causal discovery from observational data when some variables are hidden and the data-generating process follows a location-scale noise model (LSNM). Existing methods that handle hidden confounders typically assume additive noise, but in practice, causes often modulate not just the mean but also the variance of their effects. We prove that acyclic directed mixed graphs (ADMGs) satisfying a bow-free condition are identifiable under LSNM with hidden variables, establishing the first identifiability result for causally insufficient models beyond noise additivity. We further provide sufficient conditions for identifying causal direction even when the bow-free assumption is violated. Our two-stage algorithm, LSNM-UV, is sound and complete, and experiments demonstrate improved performance over additive baselines on heteroscedastic data.
+",
+url="https://arxiv.org/abs/2606.08196",
+html="https://arxiv.org/abs/2606.08196"
+}
+
+@inproceedings{pham_2026,
+ bibtex_show = {true},
+  author={Pham, Thong and Maeda, Takashi Nicholas and Shimizu, Shohei},
+  title={Causal Additive Models with Unobserved Causal Paths and Backdoor Paths}, 
+  year={2026},
+  month = {5},
+  booktitle={Proceedings of AISTATS 2026}, 
+  selected={true},
+  html={https://arxiv.org/abs/2502.07646},
+  abstract = {Causal additive models provide a tractable yet expressive framework for causal discovery in the presence of hidden variables. When unobserved backdoor or causal paths exist between two variables, their causal relationship is often unidentifiable under existing theories. We establish sufficient conditions under which causal directions can be identified in many such cases. These conditions rely on new characterizations of regression sets to determine independence among regression residuals and conditional independencies among observed variables. Building on these results, we introduce a search algorithm that incorporates these innovations and prove its soundness and completeness. Empirical evaluations demonstrate its competitive performance against state-of-the-art methods.}
+}  
+
+
+@article{10.1093/etojnl/vgag067,
+bibtex_show = {true},
+    author = {Hiki, Kyoshiro and Pham, Thong and Yamamoto, Michio and Hayashi, Takehiko I and Shimizu, Shohei},
+    title = {Statistical Causal Discovery in Developing Adverse Outcome Pathway (AOP)},
+    journal = {Environmental Toxicology and Chemistry},
+    pages = {vgag067},
+    year = {2026},
+    month = {03},
+    abstract = {Statistical causal discovery (SCD) has the potential to advance the development and evaluation of Adverse Outcome Pathways (AOPs) by inferring causal relationships directly from data. However, ecotoxicology data often has challenges for SCD applications, such as violations of SCD algorithm assumptions and small sample sizes. As a proof-of-concept, we applied DirectLiNGAM, a direct method for estimating linear non-Gaussian acyclic model (LiNGAM), a representative SCD algorithm, to three types of ecotoxicology datasets: (1) bivariate dose–response relationships, (2) bivariate response–response relationships, and (3) a multivariate dataset with a known causal structure involving thyroid hormone disruption in zebrafish. DirectLiNGAM identified correct causal directions with high statistical reliabilities in three of four bivariate dose-response cases, even when assumptions such as linearity and non-Gaussianity were partially violated. In contrast, response–response cases did not yield a single dominant direction in two of three cases, likely due to the limited sample size. In the multivariate case, some inferred graphs resembled the expert-curated causal graph but exhibited low statistical stability. By increasing effective sample size through pooling datasets with a shared causal ordering, the inference became more stable and more closely matched the expert-curated graph. These results demonstrate the utility of SCD in identifying relevant key events and the causal relationships under realistic ecotoxicological constraints.},
+    issn = {0730-7268},
+    doi = {10.1093/etojnl/vgag067},
+    html = {https://doi.org/10.1093/etojnl/vgag067},
+    eprint = {https://academic.oup.com/etc/advance-article-pdf/doi/10.1093/etojnl/vgag067/67457220/vgag067.pdf},
+}
+
+
+
+@INPROCEEDINGS{yokoyama_2025,
+bibtex_show = {true},
+  author={Yokoyama, Hiroshi and Shingaki, Ryusei and Nishino, Kaneharu and Shimizu, Shohei and Pham, Thong},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Causal-Discovery-Based Root-Cause Analysis and its Application in Time-Series Prediction Error Diagnosis}, 
+  year={2025},
+  month={6},
+  pages={1-10},
+  html ={https://ieeexplore.ieee.org/document/11228702},  
+  abstract={Recent rapid advancements of machine learning have greatly enhanced the accuracy of prediction models, but most models remain "black boxes", making prediction error diagnosis challenging, especially with outliers. This lack of transparency hinders trust and reliability in industrial applications. Heuristic attribution methods, while helpful, often fail to capture true causal relationships, leading to inaccurate error attributions. Various root-cause analysis methods have been developed using Shapley values, yet they typically require predefined causal graphs, limiting their applicability for prediction errors in machine learning models. To address these limitations, we introduce the Causal-Discovery-based Root-Cause Analysis (CD-RCA) method that estimates causal relationships between the prediction error and the explanatory variables, without needing a pre-defined causal graph. By simulating synthetic error data, CD-RCA can identify variable contributions to outliers in prediction errors by Shapley values. Extensive experiments show CD-RCA outperforms current heuristic attribution methods.},
+  doi={10.1109/IJCNN64981.2025.11228702}
+}
+
+
+@article{takayama2025,
+ bibtex_show = {true},
+title={Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach},
+author={Takayama, Masayuki and Okuda, Tadahisa and Pham, Thong and Ikenoue, Tatsuyoshi and Fukuma, Shingo and Shimizu, Shohei and Sannai, Akiyoshi},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+month = {5},
+abstract = {In practical statistical causal discovery (SCD), embedding domain expert knowledge as constraints into the algorithm is important for reasonable causal models reflecting the broad knowledge of domain experts, despite the challenges in the systematic acquisition of background knowledge. To overcome these challenges, this paper proposes a novel method for causal inference, in which SCD and knowledge-based causal inference (KBCI) with a large language model (LLM) are synthesized through ``statistical causal prompting (SCP)'' for LLMs and prior knowledge augmentation for SCD. The experiments in this work have revealed that the results of LLM-KBCI and SCD augmented with LLM-KBCI approach the ground truths, more than the SCD result without prior knowledge. These experiments have also revealed that the SCD result can be further improved if the LLM undergoes SCP. Furthermore, with an unpublished real-world dataset, we have demonstrated that the background knowledge provided by the LLM can improve the SCD on this dataset, even if this dataset has never been included in the training data of the LLM. For future practical application of this proposed method across important domains such as healthcare, we also thoroughly discuss the limitations, risks of critical errors, expected improvement of techniques around LLMs, and realistic integration of expert checks of the results into this automatic process, with SCP simulations under various conditions both in successful and failure scenarios. The careful and appropriate application of the proposed approach in this work, with improvement and customization for each domain, can thus address challenges such as dataset biases and limitations, illustrating the potential of LLMs to improve data-driven causal inference across diverse scientific domains.},
+html={https://openreview.net/forum?id=Reh1S8rxfh}
+}
+
+@ARTICLE{long_2025,
+ bibtex_show = {true},
+  author={Long, James and Yang, Yumeng and Shimizu, Shohei and Pham, Thong and Do,Kim-Anh},
+  title={Causal Models and Prediction in Cell Line Perturbation Experiments}, 
+  year={2025},
+  month = {1},
+  journal = {BMC Bioinformatics},
+  volume = {26},
+  html={https://rdcu.be/d5x9C},
+  abstract = {In cell line perturbation experiments, a collection of cells is perturbed with external agents and responses such as protein expression measured. Due to cost constraints, only a small fraction of all possible perturbations can be tested in vitro. This has led to the development of computational models that can predict cellular responses to perturbations in silico. A central challenge for these models is to predict the effect of new, previously untested perturbations that were not used in the training data. Here we propose causal structural equations for modeling how perturbations effect cells. From this model, we derive two estimators for predicting responses: a Linear Regression (LR) estimator and a causal structure learning estimator that we term Causal Structure Regression (CSR). The CSR estimator requires more assumptions than LR, but can predict the effects of drugs that were not applied in the training data. Next we present Cellbox, a recently proposed system of ordinary differential equations (ODEs) based model that obtained the best prediction performance on a Melanoma cell line perturbation data set (Yuan et al. in Cell Syst 12:128–140, 2021). We derive analytic results that show a close connection between CSR and Cellbox, providing a new causal interpretation for the Cellbox model. We compare LR and CSR/Cellbox in simulations, highlighting the strengths and weaknesses of the two approaches. Finally we compare the performance of LR and CSR/Cellbox on the benchmark Melanoma data set. We find that the LR model has comparable or slightly better performance than Cellbox.}
+  }
+  
+@ARTICLE{pham_2024,
+ bibtex_show = {true},
+  author={Pham, Thong and Shimizu, Shohei and Hino, Hideitsu and Le, Tam},
+  title={Scalable Counterfactual Distribution Estimation in Multivariate Causal Models}, 
+  year={2024},
+  month = {04},
+  journal = {Proceedings of the Third Conference on Causal Learning and Reasoning},
+  volume = {236},
+  pages = {1118-1140},
+  abstract = {We consider the problem of estimating the counterfactual joint distribution of multiple quantities of interests (eg, outcomes) in a multivariate causal model extended from the classical difference-in-difference design. Existing methods for this task either ignore the correlation structures among dimensions of the multivariate outcome by considering univariate causal models on each dimension separately and hence produce incorrect counterfactual distributions, or poorly scale even for moderate-size datasets when directly dealing with such a multivariate causal model. We propose a method that alleviates both issues simultaneously by leveraging a robust latent one-dimensional subspace of the original high-dimension space and exploiting the efficient estimation from the univariate causal model on such space. Since the construction of the one-dimensional subspace uses information from all the dimensions, our method can capture the correlation structures and produce good estimates of the counterfactual distribution. We demonstrate the advantages of our approach over existing methods on both synthetic and real-world data.},
+  html={https://proceedings.mlr.press/v236/pham24a.html}
+  }
+  
+@ARTICLE{inoue_2022,
+ bibtex_show = {true},
+  author={Inoue, Masaaki and Pham, Thong and Shimodaira, Hidetoshi},
+  journal={IEEE Access}, 
+  title={A Hypergraph Approach for Estimating Growth Mechanisms of Complex Networks}, 
+  year={2022},
+  abstract = {Temporal datasets that describe complex interactions between individuals over time are increasingly common in various domains. Conventional graph representations of such datasets may lead to information loss since higher-order relationships between more than two individuals must be broken into multiple pairwise relationships in graph representations. In those cases, a hypergraph representation is preferable since it can preserve higher-order relationships by using hyperedges. However, existing hypergraph models of temporal complex networks often employ some data-independent growth mechanism, which is the linear preferential attachment in most cases. In principle, this pre-specification is undesirable since it completely ignores the data at hand. Our work proposes a new hypergraph growth model with a data-driven preferential attachment mechanism estimated from observed data. A key component of our method is a recursive formula that allows us to overcome a bottleneck in computing the normalizing factors in our model. We also treat an often-neglected selection bias in modeling the emergence of new edges with new nodes. Fitting the proposed hypergraph model to 13 real-world datasets from diverse domains, we found that all estimated preferential attachment functions deviates substantially from the linear form. This demonstrates the need of doing away with the linear preferential attachment assumption and adopting a data-driven approach. We also showed that our model outperformed conventional models in replicating the observed first-order and second-order structures in these real-world datasets.},
+  volume={},
+  number={},
+  pages={1-1},
+  month = {1},
+  doi={10.1109/ACCESS.2022.3143612},
+  html={https://doi.org/10.1109/ACCESS.2022.3143612}
+  }
+  
+  @article{pham_2021,
+  bibtex_show = {true},
+    author = {Pham, Thong and Sheridan, Paul and Shimodaira, Hidetoshi},
+    title = {Non-parametric Estimation of the Preferential Attachment Function from One Network Snapshot},
+    journal = {Journal of Complex Networks},
+    volume = {9},
+    number = {5},
+    year = {2021},
+    month = {9},
+    abstract = {Preferential attachment is commonly invoked to explain the emergence of those heavy-tailed degree distributions characteristic of growing network representations of diverse real-world phenomena. Experimentally confirming this hypothesis in real-world growing networks is an important frontier in network science research. Conventional preferential attachment estimation methods require that a growing network be observed across at least two snapshots in time. Numerous publicly available growing network datasets are, however, only available as single snapshots, leaving the applied network scientist with no means of measuring preferential attachment in these cases. We propose a nonparametric method, called PAFit-oneshot, for estimating preferential attachment in a growing network from one snapshot. PAFit-oneshot corrects for a previously unnoticed bias that arises when estimating preferential attachment values only for degrees observed in the single snapshot. Our work provides a means of measuring preferential attachment in a large number of publicly available one-snapshot networks. As a demonstration, we estimated preferential attachment in three such networks, and found sublinear preferential attachment in all cases. PAFit-oneshot is implemented in the R package PAFit.},
+    issn = {2051-1329},
+    doi = {10.1093/comnet/cnab024},
+    url = {https://doi.org/10.1093/comnet/cnab024},
+    html = {https://doi.org/10.1093/comnet/cnab024},
+    note = {cnab024},
+    eprint = {https://academic.oup.com/comnet/article-pdf/9/5/cnab024/40830667/cnab024.pdf},
+    selected={true}
+}
+
+@article{inoue_pham_2020,
+bibtex_show = {true},
+co_first = {true},
+title = {Joint Estimation of Non-parametric Transitivity and Preferential Attachment Functions in Scientific Co-authorship Networks},
+journal = {Journal of Informetrics},
+volume = {14},
+number = {3},
+month = {8},
+pages = {101042},
+year = {2020},
+issn = {1751-1577},
+doi = {10.1016/j.joi.2020.101042},
+url = {https://www.sciencedirect.com/science/article/pii/S175115771930269X},
+html = {https://www.sciencedirect.com/science/article/pii/S175115771930269X},
+author = {Masaaki Inoue and Thong Pham and Hidetoshi Shimodaira},
+keywords = {Transitivity, Preferential attachment, Co-authorship networks, Collaboration networks, Complex networks, Network growth},
+abstract = {We propose a statistical method for estimating the non-parametric transitivity and preferential attachment functions simultaneously in a growing network, in contrast to conventional methods that either estimate each function in isolation or assume a certain functional form for these. Our model is demonstrated to exhibit a good fit to two real-world co-authorship networks and can illuminate several intriguing details of the preferential attachment and transitivity phenomena that would be unavailable under traditional methods. Moreover, we introduce a method for quantifying the amount of contributions of these phenomena in the growth process of a network based on the probabilistic dynamic process induced by the model formula. By applying this method, we found that transitivity dominated preferential attachment in both co-authorship networks. This suggests the importance of indirect relations in scientific creative processes. The proposed method is implemented in the R package FoFaF.}
+}
+
+@article{pham_2020,
+bibtex_show = {true},
+   author = {Thong Pham and Paul Sheridan and Hidetoshi Shimodaira},
+   title = {{PAFit}: An {R} Package for the Non-Parametric Estimation of Preferential Attachment and Node Fitness in Temporal Complex Networks},
+   journal = {Journal of Statistical Software},
+   volume = {92},
+   number = {3},
+   year = {2020},
+   month = {2},
+   keywords = {temporal networks; dynamic networks; preferential attachment; fitness; rich-get-richer; fit-get-richer; R; C++; Rcpp; OpenMP},
+   abstract = {Many real-world systems are profitably described as complex networks that grow over time. Preferential attachment and node fitness are two simple growth mechanisms that not only explain certain structural properties commonly observed in real-world systems, but are also tied to a number of applications in modeling and inference. While there are statistical packages for estimating various parametric forms of the preferential attachment function, there is no such package implementing non-parametric estimation procedures. The non-parametric approach to the estimation of the preferential attachment function allows for comparatively finer-grained investigations of the "rich-get-richer" phenomenon that could lead to novel insights in the search to explain certain nonstandard structural properties observed in real-world networks. This paper introduces the R package PAFit, which implements non-parametric procedures for estimating the preferential attachment function and node fitnesses in a growing network, as well as a number of functions for generating complex networks from these two mechanisms. The main computational part of the package is implemented in C++ with OpenMP to ensure scalability to large-scale networks. In this paper, we first introduce the main functionalities of PAFit through simulated examples, and then use the package to analyze a collaboration network between scientists in the field of complex networks. The results indicate the joint presence of "richget-richer" and "fit-get-richer" phenomena in the collaboration network. The estimated attachment function is observed to be near-linear, which we interpret as meaning that the chance an author gets a new collaborator is proportional to their current number of collaborators. Furthermore, the estimated author fitnesses reveal a host of familiar faces from the complex networks community among the field's topmost fittest network scientists.},
+   issn = {1548-7660},
+   pages = {1--30},
+   doi = {10.18637/jss.v092.i03},
+   url = {https://www.jstatsoft.org/v092/i03},
+   html = {https://www.jstatsoft.org/v092/i03},
+   selected={true}
+}
+
+@article{ronda_pupo_pham_2018,
+bibtex_show = {true},
+author="Ronda-Pupo, Guillermo Armando
+and Pham, Thong",
+title={The Evolutions of the Rich Get Richer and the Fit Get Richer Phenomena in Scholarly Networks: The Case of the Strategic Management Journal},
+journal="Scientometrics",
+year="2018",
+volume="116",
+month = "5",
+number="1",
+pages="363--383",
+abstract="Understanding how a scientist develops new scientific collaborations or how their papers receive new citations is a major challenge in scientometrics. The approach being proposed simultaneously examines the growth processes of the co-authorship and citation networks by analyzing the evolutions of the rich get richer and the fit get richer phenomena. In particular, the preferential attachment function and author fitnesses, which govern the two phenomena, are estimated non-parametrically in each network. The approach is applied to the co-authorship and citation networks of the flagship journal of the strategic management scientific community, namely the Strategic Management Journal. The results suggest that the abovementioned phenomena have been consistently governing both temporal networks. The average of the attachment exponents in the co-authorship network is 0.30 while it is 0.29 in the citation network. This suggests that the rich get richer phenomenon has been weak in both networks. The right tails of the distributions of author fitness in both networks are heavy, which imply that the intrinsic scientific quality of each author has been playing a crucial role in getting new citations and new co-authorships. Since the total competitiveness in each temporal network is founded to be rising with time, it is getting harder to receive a new citation or to develop a new collaboration. Analyzing the average competency, it was found that on average, while the veterans tend to be more competent at developing new collaborations, the newcomers are likely better at acquiring new citations. Furthermore, the author fitness in both networks has been consistent with the history of the strategic management scientific community. This suggests that coupling node fitnesses throughout different networks might be a promising new direction in analyzing simultaneously multiple networks.",
+issn="1588-2861",
+doi="10.1007/s11192-018-2761-3",
+url="https://doi.org/10.1007/s11192-018-2761-3",
+html="https://doi.org/10.1007/s11192-018-2761-3"
+}
+
+@InProceedings{inoue_2018,
+bibtex_show = {true},
+author="Inoue, Masaaki
+and Pham, Thong
+and Shimodaira, Hidetoshi",
+editor="Morales, Alfredo J.
+and Gershenson, Carlos
+and Braha, Dan
+and Minai, Ali A.
+and Bar-Yam, Yaneer",
+title={Transitivity vs Preferential Attachment: Determining the Driving Force Behind the Evolution of Scientific Co-Authorship Networks},
+booktitle="Unifying Themes in Complex Systems IX",
+year="2018",
+month = "7",
+publisher="Springer International Publishing",
+address="Cham",
+pages="262--271",
+abstract="We propose a method for the non-parametric joint estimation of preferential attachment and transitivity in complex networks, as opposite to conventional methods that either estimate one mechanism in isolation or jointly estimate both assuming some functional forms. We apply our method to three scientific co-authorship networks between scholars in the complex network field, physicists in high-energy physics, and authors in the Strategic Management Journal. The non-parametric method revealed complex trends of preferential attachment and transitivity that would be unavailable under conventional parametric approaches. In all networks, having one common collaborator with another scientist increases at least five times the chance that one will collaborate with that scientist. Finally, by quantifying the contribution of each mechanism, we found that while transitivity dominates preferential attachment in the high-energy physics network, preferential attachment is the main driving force behind the evolutions of the remaining two networks.",
+isbn="978-3-319-96661-8",
+html = {https://link.springer.com/chapter/10.1007%2F978-3-319-96661-8_28},
+doi = {10.1007/978-3-319-96661-8_28}
+}
+
+@article{pham_2016,
+bibtex_show = {true},
+    author = {Pham, Thong AND Sheridan, Paul AND Shimodaira, Hidetoshi},
+   title = {Joint Estimation of Preferential Attachment and Node Fitness in Growing Complex Networks},
+      journal = {Scientific Reports},
+      abstract = {Complex network growth across diverse fields of science is hypothesized to be driven in the main by a combination of preferential attachment and node fitness processes. For measuring the respective influences of these processes, previous approaches make strong and untested assumptions on the functional forms of either the preferential attachment function or fitness function or both. We introduce a Bayesian statistical method called PAFit to estimate preferential attachment and node fitness without imposing such functional constraints that works by maximizing a log-likelihood function with suitably added regularization terms. We use PAFit to investigate the interplay between preferential attachment and node fitness processes in a Facebook wall-post network. While we uncover evidence for both preferential attachment and node fitness, thus validating the hypothesis that these processes together drive complex network evolution, we also find that node fitness plays the bigger role in determining the degree of a node. This is the first validation of its kind on real-world network data. But surprisingly the rate of preferential attachment is found to deviate from the conventional log-linear form when node fitness is taken into account. The proposed method is implemented in the R package PAFit.},
+    year = {2016},
+    month = {9},
+    volume = {6},
+    page = {32558},
+    url = {http://dx.doi.org/10.1038/srep32558},
+    html = {http://dx.doi.org/10.1038/srep32558},
+    doi = {10.1038/srep32558},
+    publisher = {Nature Publishing Group}
+} 	
+
+@InProceedings{pham_eccs14,
+bibtex_show = {true},
+author="Pham, Thong
+and Sheridan, Paul
+and Shimodaira, Hidetoshi",
+editor="Battiston, Stefano
+and De Pellegrini, Francesco
+and Caldarelli, Guido
+and Merelli, Emanuela",
+title={Nonparametric Estimation of the Preferential Attachment Function in Complex Networks: Evidence of Deviations from Log Linearity},
+booktitle="Proceedings of ECCS 2014",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+month = "5",
+pages="141--153",
+abstract="We introduce a statistically sound method called PAFit for the joint estimation of preferential attachment and node fitness in temporal complex networks. Together these mechanisms play a crucial role in shaping network topology by governing the way in which nodes acquire new edges over time. PAFit is an advance over previous methods in so far as it does not make any assumptions on the functional form of the preferential attachment function. We found that the application of PAFit to a publicly available Flickr social network dataset turned up clear evidence for a deviation of the preferential attachment function from the popularly assumed log-linear form. What is more, we were surprised to find that hubs are not always the nodes with the highest node fitnesses. PAFit is implemented in an R package of the same name.",
+isbn="978-3-319-29228-1",
+html = {https://link.springer.com/chapter/10.1007%2F978-3-319-29228-1_13},
+doi = {10.1007/978-3-319-29228-1_13}
+}
+
+@article{pham_2015,
+bibtex_show = {true},
+	Author = {Thong Pham and Paul Sheridan and Hidetoshi Shimodaira},
+	Journal = {PLOS ONE},
+	Title = {{PAFit}: A Statistical Method for Measuring Preferential
+Attachment in Temporal Complex Networks},
+ year = {2015},
+ month = {9},
+ abstract = {Preferential attachment is a stochastic process that has been proposed to explain certain topological features characteristic of complex networks from diverse domains. The systematic investigation of preferential attachment is an important area of research in network science, not only for the theoretical matter of verifying whether this hypothesized process is operative in real-world networks, but also for the practical insights that follow from knowledge of its functional form. Here we describe a maximum likelihood based estimation method for the measurement of preferential attachment in temporal complex networks. We call the method PAFit, and implement it in an R package of the same name. PAFit constitutes an advance over previous methods primarily because we based it on a nonparametric statistical framework that enables attachment kernel estimation free of any assumptions about its functional form. We show this results in PAFit outperforming the popular methods of Jeong and Newman in Monte Carlo simulations. What is more, we found that the application of PAFit to a publically available Flickr social network dataset yielded clear evidence for a deviation of the attachment kernel from the popularly assumed log-linear form. Independent of our main work, we provide a correction to a consequential error in Newman’s original method which had evidently gone unnoticed since its publication over a decade ago.},
+ volume = {10},
+ pages = {e0137796},
+ number = {9},
+ publisher = {Public Library of Science},
+ doi = {10.1371/journal.pone.0137796},
+ url= {http://dx.doi.org/10.1371/journal.pone.0137796},
+ html = {http://dx.doi.org/10.1371/journal.pone.0137796}
+	}	
+	
+
+
+
+  
+
+
+
+

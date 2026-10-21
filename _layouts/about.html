@@ -1,0 +1,159 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+        </header>
+
+        <article>
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+              {%- include figure.html 
+              path=profile_image_path 
+              class="img-fluid z-dept-1 rounded"
+              alt=page.profile.image -%}
+            
+            {% endif -%}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+          </div>
+          {%- endif %}
+
+          <div class="clearfix">
+            {{ content }}
+          </div>
+          {% if page.news -%}
+          <!-- News -->
+          {%- include news.html %}
+          {%- endif %}
+           
+           <div class = "news">
+           <h2>fundings</h2>
+            <table class="table table-sm table-borderless">
+                           <tr>
+                  <th scope="row">04/2025 - 03/2028</th>
+                  <td>
+                   Group Leader, JST CREST  <a href="https://www.jst.go.jp/kisoken/crest/en/project/1111109/1111109_2022.html#anchor-2">JPMJCR22D2</a>
+                  </td>
+                </tr>
+                       <tr>
+                  <th scope="row">04/2024 - 03/2029</th>
+                  <td>
+                   JSPS Grant-in-Aid for Early-Career Scientists <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K20741">24K20741</a> (Direct cost: 5.0M JPY from JSPS and 2.2M JPY from Shiga University)
+                  </td>
+                </tr>
+                  <tr>
+                  <th scope="row">06/2023 - 03/2024</th>
+                  <td>
+                   Research Startup Grant from Shiga University Competitive Research Fund (Direct cost: 0.9M JPY)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04/2019 - 03/2022</th>
+                  <td>
+                   JSPS Grant-in-Aid for Early-Career Scientists <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K20231">19K20231</a>
+                  (Direct cost: 2.8M JPY)</td>
+                </tr>
+                  <tr>
+                  <th scope="row">04/2016 - 03/2017</th>
+                  <td>
+                   JSPS Research Fellowship for Young Scientists <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-16J03918">16J03918</a>
+                  (Direct cost: 2.3M JPY) </td>
+                </tr>
+                </table>
+           </div>
+           
+                      <div class = "news">
+           <h2>professional experience</h2>
+            <table class="table table-sm table-borderless">
+               <tr>
+                  <th scope="row">04/2026 - Now</th>
+                  <td>
+                   Associate Professor, Osaka University
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04/2026 - Now</th>
+                  <td>
+                   Specially Appointed Associate Professor, Shiga University
+                  </td>
+                </tr>
+                       <tr>
+                  <th scope="row">06/2023 - 03/2026</th>
+                  <td>
+                   Associate Professor, Shiga University
+                  </td>
+                </tr>
+                  <tr>
+                  <th scope="row">04/2022 - 05/2023</th>
+                  <td>
+                   Assistant Professor, Shiga University
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">04/2017 - 03/2022</th>
+                  <td>
+                   Postdoctoral Researcher, RIKEN AIP
+                  </td>
+                </tr>
+                </table>
+           </div>
+           
+              <div class = "news">
+           <h2>education</h2>
+            <table class="table table-sm table-borderless">
+                       <tr>
+                  <th scope="row">03/2017</th>
+                  <td>
+                   Ph.D. in Statistics, Osaka University
+                  </td>
+                </tr>
+                  <tr>
+                  <th scope="row">03/2014</th>
+                  <td>
+                   M.S. in Computer Science, Tokyo Institute of Technology
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">03/2012</th>
+                  <td>
+                   B.S. in Computer Science, Ritsumeikan University
+                  </td>
+                </tr>
+                </table>
+           </div>
+           
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+          
+          
+           
+          {%- if page.social %}
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
+            
+          </div>
+          {%- endif %}
+        </article>
+
+</div>
