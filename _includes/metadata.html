@@ -12,18 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-    {%- if site.title == "blank" -%}
-        {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
-    {%- else -%}
-        {%- capture title -%}{{ site.title }}{%- endcapture -%}
-    {%- endif -%}
-    {%- if page.title != "blank" and page.url != "/" -%}
-        {{ title }} | {{ page.title }}
-    {%- else -%}
-        {{ title }}
-    {%- endif -%}
-    </title>
+    <title>Pham Lab</title>
     <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 {%- if page.keywords or site.keywords %}
