@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Pham Lab
+title: Causality and Learning Group
 permalink: /lab/
 
 nav: true
+nav_title: group
 ---
-I lead a research group with students affiliated with [Osaka University](https://www.eng.osaka-u.ac.jp/en/) and [Shiga University](https://www.ds.shiga-u.ac.jp/graduate/). Prospective graduate students interested in joining the lab are welcome to contact me before applying to either institution.
+The Causality and Learning Group brings together students affiliated with [Osaka University](https://www.eng.osaka-u.ac.jp/en/) and [Shiga University](https://www.ds.shiga-u.ac.jp/graduate/) under the supervision of [Thong Pham]({{ '/aboutme/' | relative_url }}). Prospective graduate students interested in joining the group are welcome to get in touch before applying to either institution.
 
 ## Research themes
 
-Our lab develops statistical methods for causal discovery from complex real-world data. We currently focus on developing novel identifiable models for realistic settings, especially those involving hidden variables or highly complex mechanisms.
+Our group develops statistical methods for causal discovery from complex real-world data. We currently focus on developing novel identifiable models for realistic settings, especially those involving hidden variables or highly complex mechanisms.
 
 {% capture lab_news %}{% include news.html %}{% endcapture %}
 {{ lab_news | strip }}
