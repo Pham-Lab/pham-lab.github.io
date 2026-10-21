@@ -2,11 +2,11 @@
     <header>
 
       <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+      <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.title != "about Pham" -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+          <a class="navbar-brand title font-weight-lighter" style="font-size: clamp(0.875rem, 4vw, 1.125rem);" href="{{ site.baseurl | prepend: site.url }}/">
+              Causality &amp; Learning
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
