@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room N503</p>
+    <p>Room N503-2</p>
     <p>Bldg. N</p>
     <p>SANKEN, Osaka University</p>
 
