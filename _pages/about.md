@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about Pham
-permalink: /aboutme/
+permalink: /about-Pham/
 subtitle: Associate Professor, <a href='https://www.sanken.osaka-u.ac.jp/en/'>Osaka University</a><br /> 
           Specially Appointed Associate Professor,  <a href='https://www.ds.shiga-u.ac.jp/dscenter/'>Shiga University</a>
           

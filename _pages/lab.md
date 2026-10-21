@@ -6,7 +6,7 @@ permalink: /lab/
 nav: true
 nav_title: group
 ---
-The Causality and Learning Group brings together students affiliated with [Osaka University](https://www.eng.osaka-u.ac.jp/en/) and [Shiga University](https://www.ds.shiga-u.ac.jp/graduate/) under the supervision of [Thong Pham]({{ '/aboutme/' | relative_url }}). Prospective graduate students interested in joining the group are welcome to get in touch before applying to either institution.
+The Causality and Learning Group brings together students affiliated with [Osaka University](https://www.eng.osaka-u.ac.jp/en/) and [Shiga University](https://www.ds.shiga-u.ac.jp/graduate/) under the supervision of [Thong Pham]({{ '/about-Pham/' | relative_url }}). Prospective graduate students interested in joining the group are welcome to get in touch before applying to either institution.
 
 ## Research themes
 
@@ -17,7 +17,7 @@ Our group develops statistical methods for causal discovery from complex real-wo
 
 ## Members
 
-- [Thong Pham]({{ '/aboutme/' | relative_url }}) — Associate Professor, Osaka University/Shiga University 
+- [Thong Pham]({{ '/about-Pham/' | relative_url }}) — Associate Professor, Osaka University/Shiga University 
 - Naoya Miyata — Second-year master's student, Shiga University
 - Ryo Kamimura — Second-year master's student, Shiga University
 - Masashi Kadoya — First-year master's student, Shiga University
